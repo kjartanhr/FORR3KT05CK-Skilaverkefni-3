@@ -1,0 +1,134 @@
+{
+    "series": [
+        {
+            "id": "1",
+            "name": "Stranger Things",
+            "country": "U.S.A.",
+            "sesons": [
+                {
+                    "id": "1",
+                    "released": "2016",
+                    "episodes": "8"
+                },
+                {
+                    "id": "2",
+                    "released": "2017",
+                    "episodes": "9"
+                },
+                {
+                    "id": "3",
+                    "released": "2019",
+                    "episodes": "8"
+                },
+                {
+                    "id": "4",
+                    "released": "2022",
+                    "episodes": "9"
+                }
+            ],
+            "cast": [
+                {
+                    "name": "Winona Ryder",
+                    "character": "Joyce Byers"
+                },
+                {
+                    "name": "David Harbour",
+                    "character": "Jim Hopper"
+                },
+                {
+                    "name": "Finn Wlofheart",
+                    "character": "Mike Wheeler"
+                },
+                {
+                    "name": "Millie Bobby Brown",
+                    "character": "Eleven"
+                },
+                {
+                    "name": "Gaten Matarazzo",
+                    "character": "Dustin Henderson"
+                },
+                {
+                    "name": "Caleb McLaughlin",
+                    "character": "Lucas Sinclair"
+                },
+                {
+                    "name": "Natalia Dyer",
+                    "character": "Nancy Wheeler"
+                },
+                {
+                    "name": "Charlie Heaton",
+                    "character": "Jonathan Byers"
+                },
+                {
+                    "name": "Noah Schnapp",
+                    "character": "Will Byers"
+                },
+                {
+                    "name": "Sadie Sink",
+                    "character": "Max Mayfield"
+                }
+            ],
+            "type": "SciFi"
+        },
+        {
+            "id": "2",
+            "name": "The Great North",
+            "country": "U.S.A.",
+            "sesons": [
+                {
+                    "id": "1",
+                    "period": "2021",
+                    "episodes": "11"
+                },
+                {
+                    "id": "2",
+                    "period": "2021 - 2022",
+                    "episodes": "22"
+                }
+            ],
+            "cast": [
+                {
+                    "name": "Nick Pffermann",
+                    "character": "Beef Tobin"
+                },
+                {
+                    "name": "Jenny Slate",
+                    "character": "Judy Tobin"
+                },
+                {
+                    "name": "Will Forte",
+                    "character": "Wolf Tobin"
+                },
+                {
+                    "name": "Dulcé Sloan",
+                    "character": "Honeybee Shaw"
+                },
+                {
+                    "name": "Paul Rust",
+                    "character": "Ham Tobin"
+                },
+                {
+                    "name": "Aparna Nancheria",
+                    "character": "Moon Tobin"
+                },
+                {
+                    "name": "Megan Mullally",
+                    "character": "Alyson LeFebvrere"
+                },
+                {
+                    "name": "Davin Hermann",
+                    "character": "Santiago Carpaccio"
+                },
+                {
+                    "name": "Alanis Morissette",
+                    "character": "Alanis Morissette"
+                },
+                {
+                    "name": "Martha Kelly",
+                    "character": "Bethany"
+                }
+            ],
+            "type": "Animation"
+        }
+    ]
+}

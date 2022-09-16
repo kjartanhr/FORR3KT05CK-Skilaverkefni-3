@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Verkefni 3b3</title>
+        <script src="./js/app.js" defer></script>
+        <script>
+            window.onload = () => {
+                const roots = findRootsOfQuadratic(1, 4, 4);
+
+                document.querySelector('#out').innerHTML = `<p><strong>Random tala á milli 1-100</strong>: ${randomIntBetweenOneAndHundred()}</p>
+                <p><strong>Núllstöðvar annars stigs jöfnu 1(x^2) + 4(x) + 4 = 0</strong>: Núllstöð 1: ${roots.root1}, Núllstöð 2: ${roots.root2}</p>
+                <p><strong>Listinn "Kjartan,Gunnar,Óskar,Baldur" í JSON</strong>: <span style="font-family:monospace;">${JSON.stringify(namesToJson('Kjartan,Gunnar,Óskar,Baldur'))}</span></p>`;
+            }
+        </script>
+    </head>
+    <body>
+        <div id="out"></div>
+    </body>
+</html>

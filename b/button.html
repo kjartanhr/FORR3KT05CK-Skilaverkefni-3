@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Verkefni 3b4</title>
+        <script defer>
+            // avoid repetition
+            const $ = (q) => document.querySelector(q);
+            const _ = (c) => $('#box').style.backgroundColor = c;
+            // beautiful one-liner
+            window.onload = () => ['red', 'blue', 'green'].map(i => $('#' + i).addEventListener('click', () => _(i)));
+        </script>
+        <style>
+            html,body {
+                height: 100%;
+                margin: 0;
+            }
+            main {
+                height: 100%;
+                width: 100%;
+                display: flex;
+                align-items: center;
+            }
+            .wrapper {
+                max-width: 36rem;
+                margin: 0 auto;
+            }
+            .container {
+                width: 100%;
+            }
+            .box {
+                height: 10rem;
+                width: 100%;
+                background-color: lightgray;
+            }
+            .buttons {
+                display: grid;
+                grid-template-columns: 1fr 1fr 1fr;
+                gap: 1rem;
+                padding-top: 1rem;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="wrapper">
+                    <!-- I couldn't bear ruining my fancy one-liner here above, so I just suck this in the onclick attribute -->
+                    <div class="box" id="box" onclick="$('#box').style.backgroundColor = 'lightgray';"></div>
+                    <div class="buttons">
+                        <button id="red">Rautt</button>
+                        <button id="blue">Blátt</button>
+                        <button id="green">Grænt</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
